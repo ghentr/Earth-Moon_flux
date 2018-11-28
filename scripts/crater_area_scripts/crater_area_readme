@@ -1,0 +1,10 @@
+# readme file for crater area script
+# W. Bottke
+# Nov. 2018
+This IDL program computes a random distribution of N points on the Earth's surface and checks to see whether thee points are within a given distance threshold of terrestrial craters larger than a given diameter.  The code than reports the fraction of the points within that distance threshold, a proxy for the net area searched near known craters.
+
+This code uses functions and codes from "The IDL Astronomy User's Library"
+
+https://idlastro.gsfc.nasa.gov/
+
+The IDL Astronomy Users Library is a central repository for low-level astronomy software written in the commercial language IDL. The Library is not meant to be an integrated package, but rather is a collection of procedures from which users can pick and choose (and possibly modify) for their own use. Submitted procedures are given a cursory testing, but are basically stored in the Library as submitted.
