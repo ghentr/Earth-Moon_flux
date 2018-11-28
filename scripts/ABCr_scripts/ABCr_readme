@@ -1,0 +1,23 @@
+# README for Mazrouei_2018_ABCr.py
+# A. Parker
+# Nov. 2018
+
+This script executes the ABCr sampling used to compare lunar and terrestrial cratering records to models of their evolution over time. Details of the model are available in Mazrouei et al. 2018. 
+
+Three data files required for execution are included:
+
+```
+1) RockyCraters_lg10_forBill.csv
+2) terrestrial_650under_052617.csv
+3) crater_regression_parameter_pdf.csv
+```
+
+These are (1) observed data for the lunar craters, (2) observed data for the terrestrial craters, and (3) a discrete sample of the PDF of the age-RA95 regression parameters derived from the calibration craters in Mazrouei et al. 2018.
+
+To run, simply execute 
+```
+python path/to/Mazrouei_2018_ABCr.py
+```
+in the directory containing these data files. The output ABCr PDF approximation will be written to ABCr_crater_rate_JOINT_MARGINALIZED_OVER_UNCERTAINTY.csv.
+
+Code was developed in Python 2.7.11, with numpy 1.13.1, astropy 2.0.7, and scipy 0.19.1.
